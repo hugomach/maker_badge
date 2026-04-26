@@ -27,8 +27,8 @@ from adafruit_simplemath import map_range
 # ---------------------------------------------------------------------------
 # User configuration — change these lines to your own name and project
 # ---------------------------------------------------------------------------
-JMENO = "Jmeno"          # First name
-PRIJMENI = "Prijmeni"    # Last name / Surname
+JMENO = "Hugo"           # First name
+PRIJMENI = "Mach"        # Last name / Surname
 FIRMA = "Firma/Projekt"  # Company or project name
 
 # Battery voltage range for a single-cell LiPo (3.7 V empty, 4.2 V full)
