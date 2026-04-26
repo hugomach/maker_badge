@@ -35,7 +35,7 @@ There are currently following revisions of the board:
 	- transistor at resistor divider for battery measuring
 	- CR2032 holder was removed to save the cost of the board
 
-	These boards were distributed at Maker Faire Prague 2023 (10 - 11/6/2023) and onwards.
+	These boards were distributed at Maker Faire Prague 2023 (10 - 11/6/2023) and onwards, including Maker Faire Prague 2026.
 	
 
 ## Where can you buy it? 
