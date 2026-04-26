@@ -29,7 +29,7 @@ from adafruit_simplemath import map_range
 # ---------------------------------------------------------------------------
 JMENO = "Hugo"           # First name
 PRIJMENI = "Mach"        # Last name / Surname
-FIRMA = "Firma/Projekt"  # Company or project name
+FIRMA = "Make more"      # Company or project name
 
 # Battery voltage range for a single-cell LiPo (3.7 V empty, 4.2 V full)
 BATTERY_MIN_VOLTAGE = 3.7
