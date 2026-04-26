@@ -30,6 +30,10 @@ from adafruit_simplemath import map_range
 JMENO = "Jmeno"          # First name
 PRIJMENI = "Prijmeni"    # Last name / Surname
 FIRMA = "Firma/Projekt"  # Company or project name
+
+# Battery voltage range for a single-cell LiPo (3.7 V empty, 4.2 V full)
+BATTERY_MIN_VOLTAGE = 3.7
+BATTERY_MAX_VOLTAGE = 4.2
 # ---------------------------------------------------------------------------
 
 
@@ -76,7 +80,7 @@ led_off = (0, 0, 0)
 
 # --- Battery reading -------------------------------------------------------
 battery_voltage = get_voltage(vbat_voltage)
-battery_percentage = map_range(battery_voltage, 3.7, 4.2, 0, 100)
+battery_percentage = map_range(battery_voltage, BATTERY_MIN_VOLTAGE, BATTERY_MAX_VOLTAGE, 0, 100)
 battery_percentage = max(0, min(100, battery_percentage))
 print("VBat: {:.2f} V  /  {:.0f} %".format(battery_voltage, battery_percentage))
 
